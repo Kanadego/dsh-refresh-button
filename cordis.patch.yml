@@ -1,0 +1,10 @@
+# Bundle patch: mounts this plugin into the composition.
+#
+# This insert is NOT optional. The loader row it creates is what the
+# client-module system walks to discover the package's dsh.client
+# declaration and serve lib/client.js to the page — without it the bundle
+# resolves at profile load but nothing mounts and no client script is
+# delivered ("已安装，重启后生效" forever).
+- insert:
+    - id: dsh-refresh-button
+      name: dsh-refresh-button

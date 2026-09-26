@@ -1,0 +1,36 @@
+{
+  "name": "dsh-refresh-button",
+  "version": "1.0.0",
+  "description": "Adds a floating page-refresh button and restores the F5 / Ctrl+R reload shortcuts in DSH desktop (harmless on web too).",
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "refresh"
+  ],
+  "license": "MIT"
+}
