@@ -4,11 +4,11 @@
   "description": "Adds a floating page-refresh button and restores the F5 / Ctrl+R reload shortcuts in DSH desktop (harmless on web too).",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kanadego/dsh-desktop-refresh-button.git"
+    "url": "git+https://github.com/Kanadego/dsh-refresh-button.git"
   },
-  "homepage": "https://github.com/Kanadego/dsh-desktop-refresh-button#readme",
+  "homepage": "https://github.com/Kanadego/dsh-refresh-button#readme",
   "bugs": {
-    "url": "https://github.com/Kanadego/dsh-desktop-refresh-button/issues"
+    "url": "https://github.com/Kanadego/dsh-refresh-button/issues"
   },
   "license": "MIT",
   "type": "module",
